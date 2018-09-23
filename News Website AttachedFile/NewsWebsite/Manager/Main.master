@@ -1,0 +1,30 @@
+﻿<%@ Master Language="VB" CodeFile="Main.master.vb" Inherits="Manager_Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>مدیریت اخبار</title>
+    <link type="text/css" rel="Stylesheet" href="/Manager/Style/Main.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="MenuDiv">
+        <a href="/">وب سایت</a>
+        <a class="Menu" href="/Manager/News.aspx">افزودن خبر</a>
+   
+        <a href="/Manager/SearchNews.aspx">جستجوی خبر</a>
+         <a href="/Manager/Comment.aspx">نظرات</a>
+        <a href="/Manager/aboutUS.aspx">درباره ما</a>
+        <a href="/Manager/Communication.aspx">تماس با ما</a>
+         <a href="/Manager/Logout.aspx">خروج از سیستم</a>
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    
+    </form>
+</body>
+</html>

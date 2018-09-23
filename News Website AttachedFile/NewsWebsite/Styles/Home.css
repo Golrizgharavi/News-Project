@@ -1,0 +1,131 @@
+﻿#TopPart
+{
+    width:100%;
+    height:223px;
+    padding-top:20px;
+    background:#EBCAB2;
+    border-bottom-style:solid;
+    border-bottom-color:#F2CACE;
+    
+  
+}
+#TopPart a:hover
+{
+font:bold 9pt tahoma;
+    }
+#DownPart
+{
+    width:100%;
+
+}
+#NewsImage
+{
+    width:265px;
+    float:right;
+    
+}
+#NewsImage img
+{
+    border:solid 2px #BEAC9E;
+}
+#NewsContainer
+{
+    float:right;
+    width:418px;
+    direction:rtl;
+    padding-right:10px;
+    line-height:19px;
+}
+#NewsContainer span
+{
+    width:100%;
+    float:right;
+    
+}
+#NewsContainer span a
+{
+    font:bold 8pt tahoma;
+    color:#582C0F;
+    text-decoration:none;
+}
+#NewsContainer span a:hover
+{
+    text-decoration:underline;
+    color:#975010;
+    
+}
+#NewsContainer p
+{
+  font:8pt tahoma;
+    float:right;
+}
+.NewsRow1
+{
+    width:100%;
+    height:150px;
+    overflow:hidden;
+    font:8pt tahoma;
+    background:#FEF1EA;
+    padding-top:10px;
+    border-bottom:solid 1px #EED2C2;
+}
+
+.NewsRow1 a:hover
+{
+    font:bold 9pt tahoma;
+    
+    }
+
+.NewsRowImage
+{
+   
+    width:100px;
+    height:100px;
+    float:right;
+     padding-right:15px;
+     
+    
+}
+.NewsText
+{
+    width:550px;
+    float:right;
+    direction:rtl;
+    padding-right:10px;
+}
+.NewsText span
+{
+   float:right;
+   width:100%;
+}
+.NewsText span a
+{
+  font:bold 8pt tahoma;
+  text-decoration:none;
+  color:#FF7800;
+}
+.NewsText span a:hover
+{
+    text-decoration:underline;
+    
+}
+.NewsText p
+{
+  font:8pt tahoma;
+    float:right;
+}
+
+
+
+/*------------------------------*/
+#PageTitle
+{
+    font:bold 14pt arial;
+    text-align:right;
+    float:right;
+    height:40px;
+    padding:10px;
+    padding-right:30px;
+    border-bottom:solid 2px #E5B5A1;
+    width:550px;
+}

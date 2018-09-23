@@ -1,0 +1,50 @@
+﻿.ViewCommentsDiv
+{
+    font:8pt tahoma;
+    direction:rtl;
+    line-height:20px;
+    width:600px;
+    float:right;
+}
+.CommentTitle
+{
+    background:#EFCAB6;
+    height:20px;
+     float:right;
+     width:550px;
+     padding:10px 25px 10px 25px;
+}
+.CommentContainer
+{
+    float:right;
+    width:550px;
+     padding:10px 25px 10px 25px;
+}
+.CommentTitle span
+{
+    display:block;
+    width:100px;
+    float:right;
+}
+.CommentTitle div
+{
+    display:block;
+    width:100px;
+    float:left;
+}
+#SendComment
+{
+    float:right;
+}
+
+#SendComment table
+{
+    direction:rtl ;
+    font:8pt tahoma;
+    margin-right:auto;
+    margin-left:auto;
+    width:400px;
+    padding-right:50px;
+    padding-top:80px;
+    
+}

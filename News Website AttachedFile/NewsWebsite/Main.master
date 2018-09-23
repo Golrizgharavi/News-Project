@@ -1,0 +1,97 @@
+﻿<%@ Master Language="VB" CodeFile="Main.master.vb" Inherits="Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>وب سایت خبری</title>
+    <link type="text/css" rel="Stylesheet" href="/Styles/Main.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+   <div id="Wrapper">
+   <!------------------Header----------------------------->
+      <div id="Header">
+        <div id="LogoDiv">
+            <img src="/Images/Logo.jpg" width="976px" height="129px" alt="" />
+            <div id="MenuDiv">
+                <div class="Menu"><a href="/">صفحه اصلی</a></div>
+                 <div class="Menu"><a href="/Political.aspx">فرهنگ و هنر</a></div>
+                 <div class="Menu"><a href="/Sport.aspx">ورزشی</a></div>
+                 <div class="Menu"><a href="/CommentPage.aspx">نظرات</a></div>
+                 <div class="Menu"><a href="/AboutUs.aspx"> درباره ما</a></div>
+                 <div class="Menu"><a href="/Communication.aspx">تماس با ما</a></div>
+            </div>
+        </div>
+        
+      </div>
+      
+      <!----------------Container------------------------>
+      <div id="Container">
+        <div id="RightCol"><asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder></div>
+         <div id="LeftCol">
+            <div id="LastNewsT"><img src="/Images/LastNews_t.jpg" width="106px" height="27px" alt="" /></div>
+            <marquee direction="down" behaviour="scroll" onMouseOver="this.stop()" height="850px" onMouseOut="this.start()">
+             <asp:Repeater ID="rptLastNews" runat="server">
+                <ItemTemplate>
+                    <div class="LNEwsRow">
+                        <div class="b1"><img src="/Images/Bollet1.gif" width="6px" height="9px" alt="" /></div>
+                        <div class="NTitle"><a href='/NewsDetails.aspx?id=<%#DataBinder.Eval(Container.DataItem, "id")%>'>
+                        <%#DataBinder.Eval(Container.DataItem, "Title")%></a></div>
+                    </div>
+                </ItemTemplate>
+             </asp:Repeater>
+            </marquee>
+            <%--
+            <div class="LNEwsRow">
+                <div class="b1"><img src="/Images/Bollet1.gif" width="6px" height="9px" alt="" /></div>
+                <div class="NTitle"><a href="">سلام شما تا. وال. ذسلام شما تا. وال. ذسلام شما تا. وال. ذ</a></div>
+            </div>
+            
+             <div class="LNEwsRow">
+                <div class="b1"><img src="/Images/Bollet1.gif" width="6px" height="9px" alt="" /></div>
+                <div class="NTitle"><a href="">سلام شما تا. وال. ذسلام شما تا. وال. ذسلام شما تا. وال. ذ</a></div>
+            </div>
+            
+             <div class="LNEwsRow">
+                <div class="b1"><img src="/Images/Bollet1.gif" width="6px" height="9px" alt="" /></div>
+                <div class="NTitle"><a href="">سلام شما تا. وال. ذسلام شما تا. وال. ذسلام شما تا. وال. ذ</a></div>
+            </div>
+            
+             <div class="LNEwsRow">
+                <div class="b1"><img src="/Images/Bollet1.gif" width="6px" height="9px" alt="" /></div>
+                <div class="NTitle"><a href="">سلام شما تا. وال. ذسلام شما تا. وال. ذسلام شما تا. وال. ذ</a></div>
+            </div>
+            
+             <div class="LNEwsRow">
+                <div class="b1"><img src="/Images/Bollet1.gif" width="6px" height="9px" alt="" /></div>
+                <div class="NTitle"><a href="">سلام شما تا. وال. ذسلام شما تا. وال. ذسلام شما تا. وال. ذ</a></div>
+            </div>
+            
+             <div class="LNEwsRow">
+                <div class="b1"><img src="/Images/Bollet1.gif" width="6px" height="9px" alt="" /></div>
+                <div class="NTitle"><a href="">سلام شما تا. وال. ذسلام شما تا. وال. ذسلام شما تا. وال. ذ</a></div>
+            </div>--%>
+         </div>
+      </div>
+      
+      <!----------------Footer------------------------>
+      
+      <div id="Footer">
+        <div id="estimate">
+            <table>
+                <tr>
+                    <td>آمار بازدید ها:</td>
+                    <td><asp:Literal ID="Li_Number" runat="server"></asp:Literal> بار</td>
+                </tr>
+            </table>
+        </div>
+      </div> 
+        
+   </div>
+   
+    
+    
+</body>
+</html>

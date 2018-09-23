@@ -1,0 +1,47 @@
+﻿#MenuDiv
+{
+    width:100%;
+    height:50px;
+    background:#F79DD0;
+    padding-top:20px;
+    float:right;
+}
+#MenuDiv a
+{
+    float:right;
+    width:130px;
+     font:bold 9pt tahoma;
+     text-decoration:none;
+     color:#fff;
+}
+#MenuDiv a:hover
+{
+    text-decoration:underline;
+}
+table
+{
+    float:right;
+    direction:rtl;
+    font:8pt tahoma;
+   
+    
+}
+table td
+{
+     vertical-align:top;
+}
+#MContentDiv
+{
+    width:100%;
+    float:right;
+    padding:20px;
+}
+#LoginDiv
+{
+     width:300px;
+    height:500px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:200px;
+    
+    }

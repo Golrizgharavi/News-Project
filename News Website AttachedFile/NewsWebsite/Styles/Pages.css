@@ -1,0 +1,28 @@
+﻿#ContentDiv
+{
+    font:8pt tahoma;
+    line-height:19pt;
+    padding:20px;
+    float:right;
+    direction:rtl;
+}
+#CommunicationDiv
+{
+    font:8pt tahoma;
+    line-height:19pt;
+    padding:20px;
+    float:right;
+    direction:rtl;
+    
+    }
+  #TitleDitail
+  { 
+      float:right;
+      font:bold 9pt tahoma ;
+      color:Orange;
+      width:630px;
+      direction:rtl;
+      padding:20px;
+      
+      
+      }

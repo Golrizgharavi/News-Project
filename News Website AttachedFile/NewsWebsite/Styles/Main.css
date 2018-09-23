@@ -1,0 +1,136 @@
+﻿body 
+{
+    font:0pt tahoma;
+    line-height:0px;
+    margin:0px;
+    background:#F9E6D8 url(/Images/HeaderBody.jpg) repeat-x top right;
+    
+}
+
+#Wrapper
+{
+    width:982px;
+    height:100%;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+#Header
+{
+    width:100%;
+    height:164px;
+    float:right;
+    
+}
+#LogoDiv
+{
+
+    width:976px;
+
+    margin-left:auto;
+    margin-right:auto;
+}
+#MenuDiv
+{
+    height:36px;
+    width:100%;   
+}
+.Menu
+{
+    padding:10px 20px;
+    text-align:center;
+    width:80px;
+    float:right;
+    border-left:solid 1px #4F2A0D;
+
+}
+.Menu a
+{
+
+    font:8pt tahoma;
+    color:#fff;
+    text-decoration:none;
+}
+.Menu a:hover
+{
+    font:bold 8pt tahoma;
+    text-decoration:underline;
+}
+/*-------------------------------------------------*/
+#Container
+{
+    width:982px;
+   float:right;
+   background:#fff;
+}
+#RightCol
+{
+    width:712px;
+    float:right;
+ 
+}
+#LeftCol
+{
+    width:270px;
+    float:right;
+    background:#fff;
+  
+}
+
+#LastNewsT
+{
+    width:100%;
+    height:27px;
+    text-align:right;
+    margin-top:33px;
+}
+.LNEwsRow
+{
+    width:204px;
+    padding:12px 33px;
+  
+    direction:rtl;
+    line-height:19px;
+    border-bottom:dotted 1px #000;
+}
+.b1
+{
+
+    width:6px;
+    height:9px;
+    float:right;
+    margin-top:8px;
+}
+
+.NTitle
+{
+   
+    width:187px;
+    float:right; 
+    padding-right:5px;
+}
+.NTitle a
+{
+   
+   font:8pt tahoma;
+    color:#000;
+    text-decoration:none;
+}
+
+.NTitle a:hover
+{
+  
+    text-decoration:underline;
+}
+#Footer
+{
+    width:100%;
+    height:105px;
+    background:url(/Images/footer.jpg) repeat-x top right;
+    float:right;
+}
+#estimate
+{
+    font:bold 9pt tahoma;
+    color:#fff;
+}
